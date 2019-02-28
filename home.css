@@ -1,0 +1,74 @@
+/*FULL NAME STYLING.*/
+section, li {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  vertical-align: middle;  
+  font-size: 10rem;
+}
+
+span {
+  display: inline-block;
+}
+
+.fullname {
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                    10px 20px 5px rgba(0,0,0,0.05),
+                    -10px 20px 5px rgba(0,0,0,0.05);
+    color: rgba(0, 217, 255, 0.877);
+}
+
+.fullname span {
+    color: 000;
+    font-family: 'Fredoka One', sans-serif;
+    text-shadow:  0.25rem -0.25rem rgba(magenta, 0.75),
+                -0.25rem -0.25rem rgba(cyan, 0.75),
+                    0        0.5rem  rgba(yellow, 0.75);  
+}
+
+body{
+  background-color: rgb(25,25,25);  
+  padding:0;
+  margin:0;
+}
+
+/*TYPEWRITER STYLING*/
+h1 {
+  text-align: center;
+}
+.typewrite{
+    display:inline-block;
+    color: rgb(0, 174, 255);
+}
+
+/*Interests Section*/
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+footer{
+  color:rgb(0, 174, 255);
+  text-align: right;
+}
