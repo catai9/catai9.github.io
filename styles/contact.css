@@ -1,0 +1,35 @@
+/* Pen-specific styles */
+  h1{
+      font-size: 50px;
+  }
+  form{
+    font-size: 20px;
+    text-align: left;
+    display: inline-block; 
+    width: 210px; 
+    padding: 0;
+    margin: 0;
+  }
+
+  input{
+    display: inline-block;
+  }
+  textarea{
+      margin: 0 0 0 5%;
+  }
+
+  /* Pattern styles */
+  .left-half {
+    background-color: rgba(0, 217, 255, 0.877);
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+  .right-half {
+    background-color: rgba(0, 217, 255, 0.877);
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }

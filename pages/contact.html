@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CONTACT</title>
+        <link rel="stylesheet" href="../styles/contact.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+
+        <!--Left and Right half-->
+        <section class="container">
+            <div class="left-half">
+                <article>
+                    <h1>LinkedIn</h1>
+                    <img src="../linkedinprofile.jpg" style="width:1000;height:300px"/>
+                </article>
+            </div>
+            <div class="right-half">
+                <article>
+                    <h1>Email</h1>
+                    <form action="../scripts/contact.js">
+                        Your Email: 
+                        <input type="email" name="email">
+                        <br>
+                        Subject: 
+                        <input type="text" name="subject">
+                        <br>
+                        Body: <br>
+                        <textarea name="body" rows="10" cols="30"></textarea>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                      </form>                       
+                </article>
+            </div>
+        </section>
+
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("nav.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
+    </body>
+</html>
