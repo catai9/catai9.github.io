@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head><h1>Welcome </h1></head>
-    <body>
-        <form>
-            <p>
-                <bold>Enter Passcode: </bold> 
-                <input id="code">
-                <button type="button" onclick="checkPasscode()">Login</button>
-            </p>
-        </form>
-        <script src="scripts/login.js"></script>
-    </body>
+    <head>    
+        <link rel="stylesheet" href="styles/login.css">
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+    </head>
+
+    <header>
+            <div class="overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+              <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+            </video>
+          </header>
+          
+          <div class="col-md-20 col-lg-6 mx-auto">
+                <div class="login align-items-center py-2"></div>
+                      <div class="col-md-9 col-lg-8 mx-auto">
+                        <h3 class="login-heading mb-4 text-center">Welcome!</h3>
+                        <form>
+                          <div class="form-label-group">
+                            <input type="password" name="inputCode" class="form-control" placeholder="Enter Access Code" required autofocus>
+                            <p></p>
+                            <input type="button" class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" onclick="check(this.form)" value="Explore"/>
+                        </div>
+
+
+                          <div class="text-center">
+                            <a class="small" href="#">Request Code</a></div>
+                        </form>
+                  </div>
+            </div>
+
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/login.js"></script>
+
 </html>

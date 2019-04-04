@@ -1,23 +1,11 @@
-var passcodes = [
-    {
-        code: "recruiter"
-    },
-    {
-        code = "student"
-    },
-    {
-        code = "family"
+function check(form)
+{
+    if(form.inputCode.value == "Testing"){
+        window.open("../pages/home.html")
+        window.close()
     }
-]
-
-function checkPasscode(){
-    var code = document.getElementById("code").value
-
-    for(i = 0; i < passcodes.length; i++){
-        if(code = passcodes[i].code){
-            alert("it worked");
-            return;
-        }
+    else
+    {
+        alert("Invalid passcode. Try again.")
     }
-    alert("Wrong code. Please try again.");
 }
