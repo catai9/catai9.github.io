@@ -72,3 +72,9 @@ footer{
   color:rgb(0, 174, 255);
   text-align: right;
 }
+
+.foot {
+  position: fixed;
+  bottom:0;
+  width: 100%;  
+}
