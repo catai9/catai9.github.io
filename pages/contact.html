@@ -10,33 +10,18 @@
         <!--Navigation bar-->
         <div id="nav-placeholder"></div>
 
-        <!--Left and Right half-->
-        <section class="container">
-            <div class="left-half">
-                <article>
-                    <h1>LinkedIn</h1>
-                    <img src="../linkedinprofile.jpg" style="width:1000;height:300px"/>
-                </article>
-            </div>
-            <div class="right-half">
-                <article>
-                    <h1>Email</h1>
-                    <form action="../scripts/contact.js">
-                        Your Email: 
-                        <input type="email" name="email">
-                        <br>
-                        Subject: 
-                        <input type="text" name="subject">
-                        <br>
-                        Body:
-                        <textarea name="body" rows="10" cols="30"></textarea>
-                        <br>
-                        <input type="submit" value="Submit">
-                      </form>                       
-                </article>
-            </div>
-        </section>
-
+        <!--Contact Us Form-->
+        <div class="form-style-6">
+            <h1>Contact Us</h1>
+            <form action="mailto:catai@edu.uwaterloo.ca?subject=Mail from Personal Website" method="post" enctype="text/plain">
+                <input type="text" name="From" placeholder="Your Name" />
+                <input type="subject" name="Purpose" placeholder="Subject" />
+                <textarea name="Message" placeholder="Type your Message" style="height:200px"></textarea>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Send">                
+            </form>
+        </div>
+           
         <script>
             $(function(){
                 $("#nav-placeholder").load("nav.html");
