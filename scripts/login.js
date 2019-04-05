@@ -2,7 +2,7 @@ function check(form)
 {
     if(form.inputCode.value == "Testing"){
         window.open("../pages/home.html")
-        window.close()
+        window.parent.close()
     }
     else
     {
