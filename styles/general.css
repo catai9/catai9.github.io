@@ -9,3 +9,11 @@
 map {
     display: inline;
 }
+body{
+    background-color: black;  
+}
+
+footer{
+    color: rgb(0, 174, 255);
+    text-align: right;
+}
