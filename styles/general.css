@@ -2,9 +2,14 @@
     width: 100%;
     text-align: center;
     vertical-align: middle;  
-    font-size: 6rem;
     padding: 50px 0;
     color: rgb(0, 174, 255);
+}
+.heading{
+    font-size: 6rem;
+}
+.small{
+    font-size: 1.5rem;
 }
 .content{
   padding: 50px 0;
