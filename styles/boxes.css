@@ -11,7 +11,10 @@
   padding: 25px;
   justify-content: center;  
 }
-.boxes:hover {background-color:rgb(0, 174, 255)}
+.boxes:hover {
+  background-color:rgb(0, 174, 255)
+  
+}
 
 .consulting{
   margin: 1% 0 0 43%;
@@ -50,6 +53,11 @@
   margin-left: -80px;
 }
 
+.left{
+  text-align: right;
+  margin-right: 5px;
+}
+
 /* Popup arrow */
 .boxes .popuptext::after {
   content: "";
@@ -59,23 +67,9 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
 }
 
 /* Toggle this class - hide and show the popup */
 .boxes .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
 }
