@@ -4,19 +4,15 @@
     vertical-align: middle;  
     font-size: 6rem;
     padding: 50px 0;
+    color: rgb(0, 174, 255);
 }
 .content{
   padding: 50px 0;
+  color: rgb(0, 174, 255);
 }
 map {
     display: inline;
 }
-html,
-body {
-  height: 100%;
-  color: rgb(0, 174, 255);
-}
-
 body{
     background-color: black;  
 }
@@ -24,6 +20,10 @@ body{
 footer{
     color: rgb(0, 174, 255);
     text-align: right;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 
