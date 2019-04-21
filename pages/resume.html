@@ -7,7 +7,6 @@
     </head>
 
     <body>
-        <script src="../scripts/loadnav.js"></script>
         <!--Navigation bar-->
         <div id="nav-placeholder"></div>
         <!--end of Navigation bar-->
@@ -20,6 +19,12 @@
          <footer>2019 Amy Tai</footer>
 
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-             
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("nav.html");
+            });
+        </script>       
+    
+
     </body>
 </html>
