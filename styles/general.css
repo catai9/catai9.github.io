@@ -1,9 +1,11 @@
-section, li {
+.resume{
     width: 100%;
     padding: 50px 0;
     text-align: center;
     vertical-align: middle;  
     color: rgb(0, 174, 255);
-
+    font-size: 6rem;
 }
-  
+map {
+    display: inline;
+}
