@@ -4,6 +4,7 @@
         <title>Portfolio</title>
         <link rel="shortcut icon" href="../Title.png"/>
         <link rel="stylesheet" href="../styles/general.css">
+        <link rel="stylesheet" href="../styles/portfolio.css">
     </head>
 
     <body>
@@ -11,14 +12,35 @@
         <div id="nav-placeholder"></div>
         <!--end of Navigation bar-->
         
-        <section>
-            <div class="content">Under Construction ... thank you for your interest!</div>
-        </section>
+        <div class="resume">
+            <div class="heading">Portfolio</div>
+            <div class="small"><i>Filter for specific projects using left buttons.</i></div>
+        </div>
+
+        <div id="myBtnContainer" class="sidenav">
+          <button class="btn active" onclick="filterSelection('all')"> ALL</button>
+          <button class="btn" onclick="filterSelection('software')"> SOFTWARE</button>
+          <button class="btn" onclick="filterSelection('consulting')"> CONSULTING</button>
+          <button class="btn" onclick="filterSelection('pm')"> PROJECT MANAGEMENT</button>
+          <button class="btn" onclick="filterSelection('design')"> DESIGN</button>
+          <button class="btn" onclick="filterSelection('engineering')"> ENGINEERING</button>
+          <button class="btn" onclick="filterSelection('entrepreneurship')"> ENTREPRENEURSHIP</button>
+        </div>
+        
+        <div class="container">
+          <div class="filterDiv software consulting engineering design">SMUG</div>
+          <div class="filterDiv consulting engineering design">OBO</div>
+          <div class="filterDiv design">FoodShare</div>
+          <div class="filterDiv software consulting pm design engineering">DST</div>
+          <div class="filterDiv consulting pm design">CShare</div>
+          <div class="filterDiv design entrepreneurship">ComfortFoods</div>
+        </div>
 
          <!--footer-->
          <footer>&copy 2019 Amy Tai</footer>
 
         <script src="../scripts/jquery-1.10.2.js"></script>
-        <script src="../scripts/loadnav.js"></script>     
+        <script src="../scripts/loadnav.js"></script>
+        <script src="../scripts/portfolio.js"></script>     
     </body>
 </html>
