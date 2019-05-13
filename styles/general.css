@@ -35,3 +35,29 @@ footer{
     padding: 20% 0;
     color: black;
 }
+
+img.thumbnail{    
+    border-radius: 50%;
+    border: 10px solid rgba(0, 217, 255, 0.877);
+    
+}
+
+.left-half{
+    left: 0px;
+    width: 50%;
+    position: absolute;
+    padding: 3% 0 0 5%;
+}
+
+.right-half{
+    right: 0px;
+    width: 48%;
+    position: absolute;
+    padding: 3% 5% 0 5%;
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.large-heading{
+    font-size: 125px;
+}
