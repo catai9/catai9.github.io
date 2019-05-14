@@ -56,6 +56,15 @@ img.thumbnail{
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+@media screen and (min-width: 1180px) {
+    .left-half{
+        position: absolute;
+    }
+    .right-half{
+        position: absolute;
+    }
+}
+
 .large-heading{
     font-size: 125px;
 }
