@@ -4,7 +4,7 @@ title:  "Decision Support Tool"
 date:   2019-08-20 10:51:47 +0530
 technologies: Excel VBA
 github: https://github.com/catai9/decision-support-tool
-img: hotel-database-project.png
+img: decision-support-tool/home.png
 ---
 
 A decision support tool to assist teams with planning and executing projects. The tool functions as a medium for delegating and managing tasks. This project was completed in a team of six for MSCI 100: Management Engineering Concepts final project.
