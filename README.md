@@ -4,4 +4,5 @@
 Different versions of the website can be found by navigating amongst the different branches.
 
 ### Technologies Used: 
-- JavaScript, CSS, HTML, Bootstrap, Brackets
+- JavaScript, CSS, Sass, HTML, Bootstrap
+- Jekyll, Markdown, Google Forms, Github Pages, VS Code
