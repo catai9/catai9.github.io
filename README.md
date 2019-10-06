@@ -1,8 +1,8 @@
-Demo: [http://webjeda.com/cards](http://webjeda.com/cards)
+# Personal Website
 
-## Installation
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready.
+## Showcases a personal summary, portfolio of my work, and copies of my resume.
+Different versions of the website can be found by navigating amongst the different branches.
 
-For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
+### Technologies Used: 
+- JavaScript, CSS, Sass, HTML, Bootstrap
+- Jekyll, Markdown, Google Forms, Github Pages, VS Code
