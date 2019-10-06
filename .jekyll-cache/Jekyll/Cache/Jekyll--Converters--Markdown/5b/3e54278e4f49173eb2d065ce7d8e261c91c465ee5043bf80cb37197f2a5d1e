@@ -1,0 +1,81 @@
+I"P<p>Personal website to showcase project portfolio.</p>
+
+<p>One of my first personal projects was creating a personal website. I have gone through two major iterations of my website and utilised various tools for each version. This article will be discussing the major changes and their respective reasons.</p>
+
+<p>Link to <a href="https://github.com/catai9/catai9.github.io">Github Code</a>.</p>
+
+<p>Technologies used include Jekyll, Markdown, Google Forms, Bootstrap, Github Pages, Javascript, Sass, HTML, VS Code.</p>
+
+<h2 id="overview-of-major-changes">Overview of Major Changes</h2>
+
+<h4 id="1-website-foundation">1. <strong><a href="#website-foundation">Website Foundation</a></strong></h4>
+<h4 id="2-home-page">2. <strong><a href="#home-page">Home Page</a></strong></h4>
+<h4 id="3-contact-form">3. <strong><a href="#contact-form">Contact Form</a></strong></h4>
+<h4 id="4-video-portfolio">4. <strong><a href="#video-portfolio">Video Portfolio</a></strong></h4>
+
+<h2 id="details-of-major-changes">Details of Major Changes</h2>
+
+<p><a name="website-foundation"></a></p>
+
+<h4 id="1-website-foundation-1">1. Website Foundation</h4>
+<p>In the first version of the website, the code was built from the ground up and minimal Bootstrap was used to develop features. However, that introduced a lot of problems across browsers and it was time-consuming to add new pages. Then I discovered Jekyll and Markdown which made it easier to add new pages and customize website features.</p>
+
+<p><a href="#top">Back to Top</a></p>
+
+<p><a name="home-page"></a></p>
+
+<h4 id="2-home-page-1">2. Home Page</h4>
+<p>Initially, the home page consisted of a pyramid of key topics that I was interested in. When hovered, additional details about the topics were shown to the user. Although beneficial, it was soon analyzed that the most frequently visited page was the Projects tab. Thus, in the second iteration, that page became the home page.</p>
+
+<p float="center">
+    Initial Home Page
+    <img src="../images/personal-website/before-home.JPG" />
+</p>
+<p float="center">
+    Initial Project Page
+    The initial project page where cards would flip when hovered to provide more information about the project.
+    <img src="../images/personal-website/initial-project-page.JPG" />
+</p>
+
+<p float="center">
+Revised Project Page 
+  The new version where key project information was displayed on the project card and users can click the card for more detailed information.
+  <img src="../images/hotel-database-system/hotelAvailabilityList.JPG" />
+</p>
+
+<p><a href="#top">Back to Top</a></p>
+
+<p><a name="contact-form"></a></p>
+
+<h4 id="3-contact-form-1">3. Contact Form</h4>
+<p>In the first iteration of the website, the contact form would redirect users to an email application where the content of the email were prepopulated with the information that they had written on the form. However, showcasing my personal email in the files would expose it to email spam bots. Since my personal website is static to decrease loading time, I utilized Google Forms in my code for the contact form. By using Google Forms, I can quickly analyze the form responses and I get a notification when a form is submitted.</p>
+
+<p float="center">
+  Initial Contact Form
+  <img src="../images/hotel-database-system/employeeStatsHome.JPG" />
+</p>
+
+<p float="center">
+  Contact Form with Google Forms
+  <img src="../images/hotel-database-system/employeeStatsPopulated.JPG" />
+</p>
+
+<p><a href="#top">Back to Top</a></p>
+
+<p><a name="video-portfolio"></a></p>
+
+<h4 id="4-video-portfolio-1">4. Video Portfolio</h4>
+<p>At first, I was planning to host a video portfolio on my website as videos are more engaging. However, after conducting research and user tests, it was soon discovered that factors such as loading time for the video outweigh the possible benefits of using a video. Thus, the video was removed and a simple About page was used instead.</p>
+
+<p float="center">
+  Using a Video
+  <img src="../images/hotel-database-system/eventInquiry.png" />
+</p>
+
+<p float="center">
+  Showing an About Page
+  <img src="../images/hotel-database-system/eventInquiryListing.png" />
+</p>
+
+<p><a href="#top">Back to Top</a></p>
+:ET

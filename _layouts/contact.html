@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col-md-8">
+        <article class="post">
+            <header class="post-header">
+                <h1 class="post-title">{{ page.title }}</h1>
+            </header>
+            <div class="post-content">
+                {{ content }}
+
+                <script type="text/javascript">var submitted = false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                    onload="if(submitted)  {window.location='../thankyou';}"></iframe>
+
+
+                <form class="form"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSfztEI9nORzfk0Zwi9jU1s-ESK4vCl1yi9fK1Vfdm0mhpFISw/formResponse"
+                    method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="inputFirstName">Name</label>
+                                <input class="form-control" name="entry.1241256688" type="text" required
+                                    placeholder="Name" />
+
+
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="inputLastName">Email</label>
+                                <input class="form-control" name="entry.479607471" type="email" required
+                                    placeholder="Email" />
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Topic</label>
+                        <input class="form-control" name="entry.2067068314" type="text" required placeholder="Topic" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+
+                        <textarea class="form-control" name="entry.1357589149" rows="4" cols="50"
+                            required>Enter more details</textarea>
+
+                        <br>
+                        <input type="submit" class="btn btn-primary" value="Submit">
+                </form>
+            </div>
+
+        </article>
+
+
+    </div>
+    <br>
+    <br>
+    {% include sidebar.html %}
+</div>

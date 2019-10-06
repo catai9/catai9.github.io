@@ -1,41 +1,69 @@
-<!DOCTYPE html>
-<html>
-    <head>    
-        <title>Welcome!</title>
-        <link rel="shortcut icon" href="../Title.png"/>
-        <link rel="stylesheet" href="styles/login.css">
-        <link rel="stylesheet" href="styles/bootstrap.min.css">
-    </head>
+---
+layout: default
+---
 
-    <header>
-            <div class="overlay"></div>
-            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-              <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
-            </video>
-          </header>
-          
-          <div class="col-md-20 col-lg-6 mx-auto">
-                <div class="login align-items-center py-2"></div>
-                      <div class="col-md-9 col-lg-8 mx-auto">
-                        <h3 class="login-heading mb-4 text-center">Welcome!</h3>
-                        <form>
-                          <!-- <div class="form-label-group">
-                            <input type="password" name="inputCode" class="form-control" placeholder="Enter Access Code" required autofocus>
-                            <p></p> -->
-                            <a href="../pages/home.html"> 
-                              <input type="button" class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" value="Learn More"/>
-                            </a>
-                          </div>
+<div class="home">
+  
+    <div class="row pack">
 
-
-                          <!-- <div class="text-center">
-                            <a class="small" href="#">Request Code</a></div> -->
-                        </form>
+        {% for post in paginator.posts %}   
+            <div class="col-md-4 card">
+             <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">    
+                <div class="panel panel-default">
+                  
+                  {% if post.img %}
+                  <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                  {% else %}
+                  <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
+                  {% endif %}
+                  
+                  <div class="panel-body">
+                    <br>
+                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3>
                   </div>
+                  
+                  <div class="panel-body">
+                    <h6 class="post-meta">{{post.technologies}}</h6> 
+                    <small>{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}</small>
+                  </div>
+                </div>
+                </a>
             </div>
+        
+          {% endfor %}
 
-    <script src="scripts/bootstrap.bundle.min.js"></script>
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/login.js"></script>
+    </div> 
+    
+<!-- <div class="row">
+    <div class="col-md-4">  </div>
+    <div class="col-md-4">
+        {% if paginator.total_pages > 1 %}
+        <ul class="pagination">
+          {% if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+          {% else %}
+            <li><span>&laquo; Prev</span></li>
+          {% endif %}
 
-</html>
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <li class="active"><span><em>{{ page }}</em></span></li>
+            {% elsif page == 1 %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+            {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+            {% endif %}
+          {% endfor %}
+
+          {% if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+          {% else %}
+            <li><span >Next &raquo;</span></li>
+          {% endif %}
+          </ul>
+        {% endif %}
+
+    </div>
+    <div class="col-md-4">  </div>
+</div> -->
+</div>
