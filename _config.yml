@@ -10,8 +10,6 @@ title: Amy Tai
 description: > # this means to ignore newlines until "baseurl:"
   Personal website
   
-  
-baseurl: "/cards" # the subpath of your site, e.g. /blog
 url: "http://amytai.ca" # the base hostname & protocol for your site
 
 #sidebar
