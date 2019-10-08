@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Decision Support Tool"
-date:   2019-08-20 10:51:47 +0530
+date:   2017-11-13 10:51:47 +0530
 technologies: Excel VBA
 github: https://github.com/catai9/decision-support-tool
 img: decision-support-tool.png

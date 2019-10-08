@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meme Generator Project"
-date:   2018-09-29 10:51:47 +0530
+date:   2019-09-29 10:51:47 +0530
 technologies:  React JS, Javascript, Meme API, JSX, Create-React-App, Sass, HTML5, VS Code
 github: https://github.com/catai9/meme-generator
 img: meme-generator-project.JPG
