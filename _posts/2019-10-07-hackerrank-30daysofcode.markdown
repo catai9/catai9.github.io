@@ -3,7 +3,7 @@ layout: post
 title:  "HackerRank 30 Days of Code"
 date:   2019-10-07 10:51:47 +0530
 technologies:  Java, Data Structures, Inheritance, Abstract Classes
-github: https://github.com/catai9/hackerrank-30daysofcode
+github: https://github.com/catai9/hackerrank-challenge-solutions
 img: hackerrank-30days.JPG
 --- 
 
