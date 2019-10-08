@@ -15,8 +15,6 @@ When preparing for a coding interview, I discovered HackerRank and its contests.
 
 This Github repository contains my answers to select key questions in the 30 day challenge and other HackerRank problems that I believe highlight important Java concepts.
 
-Technologies used include Java, Data Structures, Inheritance, Abstract Classes. 
-
 Link to [Github Code]({{page.github}}).
 
 Technologies used include {{page.technologies}}. 
