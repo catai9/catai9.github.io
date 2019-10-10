@@ -3,7 +3,7 @@ layout: post
 title:  "Top Player Implementation"
 date:   2018-11-19 10:51:47 +0530
 technologies: Java, Maps, Eclipse
-img: top-player-map-implementation.png
+img: top-player-map-implementation.JPG
 ---
 
 Implementation of three different map methods in Java with the fastest reading over 3 million data rows in under 0.4 seconds.
