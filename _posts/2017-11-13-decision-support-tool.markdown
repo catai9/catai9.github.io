@@ -7,7 +7,9 @@ github: https://github.com/catai9/decision-support-tool
 img: decision-support-tool.png
 ---
 
-A decision support tool to assist teams with planning and executing projects. The tool functions as a medium for delegating and managing tasks. This project was completed in a team of six for MSCI 100: Management Engineering Concepts final project.
+A decision support tool to assist teams with planning and executing projects. The tool functions as a medium for delegating and managing tasks. 
+
+This project was completed in a team of six for MSCI 100: Management Engineering Concepts final project.
 
 Link to [Code]({{page.github}}).
 Technologies used include {{page.technologies}}. 
