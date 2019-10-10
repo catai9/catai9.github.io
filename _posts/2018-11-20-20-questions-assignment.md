@@ -21,11 +21,11 @@ Technologies used include {{page.technologies}}.
 1. Users can begin a new game that initially asks "Would your object happen to be Jedi?" and then train the computer onwards with their own questions and answers. The user can then store the game data in a new file to replay later on. A sample game is shown below.
 
 <p float="center">
-  <img src="../images/20-questions/new-game.png"/>
+  <img src="../images/20-questions/new-game.JPG"/>
 </p>
 
 2. Users can continue a previous game by providing the file name. The program also keeps track of the games that are played and the number of games that the user won. The user can decide not to store the current game as well. A sample interaction is shown below. 
 
 <p float="center">
-  <img src="../images/20-questions/recall-old-game.png"/>
+  <img src="../images/20-questions/recall-old-game.JPG"/>
 </p>
