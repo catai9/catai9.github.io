@@ -13,9 +13,3 @@ This project was completed as part of the Introduction to Computer Programming c
 Please note that there is no link to the code as this was developed for an university course assignment and the professor requested that the code be kept private. However, I was awarded 100% in this assignment. 
 
 Technologies used include {{page.technologies}}. 
-
-## Sample Output
-
-<p float="center">
-  <img src="../images/file-reader-analyzer.png"/>
-</p>
