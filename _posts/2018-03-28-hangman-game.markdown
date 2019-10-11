@@ -3,7 +3,7 @@ layout: post
 title:  "Hangman Game"
 date:   2018-03-28 10:51:47 +0530
 technologies: Java, Scanners, Control Structures, Classes and Methods, Arrays, Eclipse
-img: hangman-game.JPG
+img: hangman-game.png
 ---
 
 A digital version of Hangman that processes user input and keeps track of the game state. 
