@@ -3,7 +3,7 @@ layout: post
 title:  "Variable Pyramid Creator"
 date:   2018-02-07 10:51:47 +0530
 technologies: Processing 3
-img: variable-pyramid-creator/pyramid-5.JPG
+img: variable-pyramid.JPG
 ---
 
 A program that takes the pyramid's height as an input parameter and outputs a pyramid of the requested height.
