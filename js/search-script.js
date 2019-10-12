@@ -6,6 +6,7 @@
   * Additional parameters 
   * Custom search output layout
   * Display of all posts if the search bar is empty
+  * Number of maximum post returns was changed from 10 to 20
   */
 !function () {
     "use strict";

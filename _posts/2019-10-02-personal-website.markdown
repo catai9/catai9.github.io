@@ -2,7 +2,7 @@
 layout: post
 title:  "Personal Website"
 date:   2019-10-02 10:51:47 +0530
-technologies:  Jekyll, Markdown, Google Forms, Bootstrap, Github Pages, Javascript, Sass, HTML, VS Code
+technologies:  Jekyll, Markdown, Google Forms, Bootstrap, Github Pages, JavaScript, Sass, HTML, VS Code
 github: https://github.com/catai9/catai9.github.io
 img: personal-website-project.JPG
 --- 
@@ -10,6 +10,8 @@ img: personal-website-project.JPG
 Personal website to showcase project portfolio.
 
 One of my first personal projects was creating a personal website. I have gone through two major iterations of my website and utilised various tools for each version. This article will be discussing the major changes and their respective reasons.
+
+The current version of the website is customized from a Jekyll template to include features such as a search bar and custom post pages.
 
 Link to [Github Code]({{page.github}}).
 
