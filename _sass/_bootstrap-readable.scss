@@ -1589,7 +1589,7 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 20px;
+  padding-left: 0;
   padding-right: 20px;
 }
 @media (min-width: 768px) {
@@ -4807,9 +4807,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
 }
+.projectTitle{
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  text-decoration: underline;
+}
 .pager {
   padding-left: 0;
-  margin: 22px 0;
   list-style: none;
   text-align: center;
 }
@@ -4823,20 +4828,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 15px;
+  width: 80%;
 }
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
   background-color: #4582ec;
 }
-.pager .next > a,
-.pager .next > span {
-  float: right;
-}
-.pager .previous > a,
-.pager .previous > span {
-  float: left;
-}
+
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
