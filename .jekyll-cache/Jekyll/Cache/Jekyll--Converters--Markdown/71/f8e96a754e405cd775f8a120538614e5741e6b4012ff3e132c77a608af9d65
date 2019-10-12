@@ -1,0 +1,35 @@
+I"Û<p>Implementation of three different map methods in Java with the fastest reading over 3 million data rows in under 0.4 seconds.</p>
+
+<p>This project was completed as part of the Data Structures and Algorithms course. There were two main components to this project: analyzing a data structure to store the data and determining an algorithm to print the top 20 players.</p>
+
+<p>The three types of data structures that were analyzed were an Unsorted List, a Binary Search Tree, and a Hash Table. These methods were analyzed through collecting empirical measurements and finding the worst-case growth rate from the code implementation.</p>
+
+<p>The algorithms analyzed for determining the top 20 players were Priority Queue, Balanced Binary Search Tree, Iteration, TreeMap with Comparator class, and Manual Sorting.</p>
+
+<p>Please note that there is no link to the code as this was developed for an university course assignment and the professor requested that the code be kept private. However, I was awarded 100% in this assignment.</p>
+
+<p>Technologies used include Java, Maps, Eclipse.</p>
+
+<h2 id="types-of-data-structures-analyzed">Types of Data Structures Analyzed</h2>
+
+<h4 id="1-unsorted-list">1. Unsorted List</h4>
+<p>The worst-case growth rate was analyzed to be quadratic. Adding elements took constant time while the other operations ran in linear time. The following is a snapshot of the empirical times collected for this method.</p>
+
+<p float="center">
+  <img src="../images/top-player-map-implementation/meth-1-unsorted-list.png" />
+</p>
+
+<h4 id="2-binary-search-tree">2. Binary Search Tree</h4>
+<p>The worst-case growth rate was analyzed to be linearithmic. Adding, removing, searching, and retrieving took logarithmic time. The following is a snapshot of the empirical times collected for this method.</p>
+
+<p float="center">
+  <img src="../images/top-player-map-implementation/meth-2-binary-tree.png" />
+</p>
+
+<h4 id="3-hash-table">3. Hash Table</h4>
+<p>The worst-case growth rate was analyzed to be linear. Adding and retrieving was determined to be constant time. The following is a snapshot of the empirical times collected for this method.</p>
+
+<p float="center">
+  <img src="../images/top-player-map-implementation/meth-3-hash-table.png" />
+</p>
+:ET

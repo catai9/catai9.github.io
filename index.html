@@ -3,8 +3,11 @@ layout: default
 ---
 
 <div class="home">
-  
-    <div class="row pack">
+  <!-- Html Elements for Search -->
+<div id="search-container">
+    <input type="text" id="search-input" placeholder="Search...">
+   
+    <div id="results-container" class="row pack">
 
         {% for post in paginator.posts %}   
             <div class="col-md-4 card">
@@ -33,37 +36,18 @@ layout: default
           {% endfor %}
 
     </div> 
+  
+</div>
+
+<!-- Script pointing to search-script.js -->
+<script src="./js/search-script.js" type="text/javascript"></script>
     
-<!-- <div class="row">
-    <div class="col-md-4">  </div>
-    <div class="col-md-4">
-        {% if paginator.total_pages > 1 %}
-        <ul class="pagination">
-          {% if paginator.previous_page %}
-            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
-          {% else %}
-            <li><span>&laquo; Prev</span></li>
-          {% endif %}
-
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-              <li class="active"><span><em>{{ page }}</em></span></li>
-            {% elsif page == 1 %}
-            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-            {% else %}
-            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-            {% endif %}
-          {% endfor %}
-
-          {% if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
-          {% else %}
-            <li><span >Next &raquo;</span></li>
-          {% endif %}
-          </ul>
-        {% endif %}
-
-    </div>
-    <div class="col-md-4">  </div>
-</div> -->
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json'
+})
+</script>
 </div>
