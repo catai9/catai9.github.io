@@ -26,5 +26,16 @@
             </div>
         </div>
     </footer>
+    <!-- IMPLEMENT BOTTOM WITH A LEGEND OF ALL THE PROJECTS SO THEY DONT HAVE TO GO BACK TO HOME TO FIND A PROJECT -->
+    <div class="row">
+        <p class="projectTitle">Other Projects</p>
+        <ul class="pager">
+        {% for projectPost in site.posts %}
+            {% if page.title != projectPost.title %}
+            <li><a class="previous" href="{{projectPost.url | prepend: site.baseurl}}">{{projectPost.title}}</a></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
 
 </div>
