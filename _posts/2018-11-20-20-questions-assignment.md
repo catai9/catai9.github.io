@@ -13,7 +13,7 @@ The computer increases in intelligence with each losing game as the player is re
 
 The program uses test files as storage and implementation with recursion rather than loops as required by the assignment condition. 
 
-Link to [Github Code]({{page.github}}).
+Link to [GitHub Code]({{page.github}}).
 
 Technologies used include {{page.technologies}}. 
 

@@ -11,7 +11,8 @@ A decision support tool to assist teams with planning and executing projects. Th
 
 This project was completed in a team of six for MSCI 100: Management Engineering Concepts final project.
 
-Link to [Code]({{page.github}}).
+Link to [GitHub Code]({{page.github}}).
+
 Technologies used include {{page.technologies}}. 
 
 ## Application Components

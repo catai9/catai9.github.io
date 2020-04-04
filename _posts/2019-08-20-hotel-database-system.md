@@ -11,7 +11,8 @@ Hotel Database Information Retrieval System for use by internal employees.
 
 An [Entity Relationship Diagram](#entity-relationship) and a [Relational Diagram](#relational-diagram) was generated for this database management system. This project was completed in a team of three for MSCI 346: Database Systems final project.
 
-Link to [Github Code]({{page.github}}).
+Link to [GitHub Code]({{page.github}}).
+
 Technologies used include {{page.technologies}}. 
 
 ## Application Functionality

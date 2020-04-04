@@ -9,7 +9,7 @@ img: meme-generator-project.JPG
 
 A meme generator that allows users to add text to the top and bottom of a randomly generated meme image.
 
-Link to [Github Code]({{page.github}}).
+Link to [GitHub Code]({{page.github}}).
 
 Link to [demo](https://amytai.ca/meme-generator/).
 

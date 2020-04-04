@@ -13,7 +13,7 @@ One of my first personal projects was creating a personal website. I have gone t
 
 The current version of the website is customized from a Jekyll template to include features such as a search bar and custom post pages.
 
-Link to [Github Code]({{page.github}}).
+Link to [GitHub Code]({{page.github}}).
 
 Technologies used include {{page.technologies}}. 
 
