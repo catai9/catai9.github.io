@@ -1,8 +1,0 @@
-I"¡<p>A web application developed based on a decision tree that generates fitness options given user requirements and allows the user to add/view/remove fitness events from their Google Calendar.</p>
-
-<p>The decision tree was developed based on user survey results.</p>
-
-<p>Link to <a href="https://github.com/catai9/FitnessAssistant">Github Code</a>.</p>
-
-<p>Technologies used include ReactJS, Google Calendar API.</p>
-:ET

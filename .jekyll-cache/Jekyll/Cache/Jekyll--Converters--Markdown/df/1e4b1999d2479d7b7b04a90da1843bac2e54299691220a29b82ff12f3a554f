@@ -1,0 +1,34 @@
+I"ä<p>A fun way to practice adding two numbers together where users can write their answer on a black canvas to be verified against the correct answer.</p>
+
+<p>The TensorFlow model for predicting the handwritten digits was trained in batches of 1000 with two hidden layers, 50 epochs and a learning rate of 0.001. The modelâ€™s accuracy on the test set was 97.58%.</p>
+
+<p>Link to <a href="https://github.com/catai9/math-garden">GitHub Code</a>.</p>
+
+<p>Link to <a href="https://amytai.ca/math-garden/">demo</a>.</p>
+
+<p>Technologies used include TensorFlow, Python 3, JavaScript, Pandas, Numpy, Scikit Learn.</p>
+
+<h2 id="game-states">Game States</h2>
+
+<h4 id="empty-state">Empty State</h4>
+<p>At the start of the game, the user is shown an empty state where there are no plants in the background.</p>
+
+<p float="center">
+    <img src="../images/math-garden-game/start-game.png" />
+</p>
+
+<h4 id="midgame-state">Midgame State</h4>
+<p>Throughout the game, different coloured plants will appear in the background when questions are answered correctly.
+Incorrect answers result in a gradual removal of plants from the background unless the background is already barren.</p>
+
+<p float="center">
+    <img src="../images/math-garden-game/mid-game.png" />
+</p>
+
+<h4 id="winning-state">Winning State</h4>
+<p>After six consecutive wins, the background will be completely populated with plants and the user can restart the game.</p>
+
+<p float="center">
+    <img src="../images/math-garden-game/complete-game.png" />
+</p>
+:ET
