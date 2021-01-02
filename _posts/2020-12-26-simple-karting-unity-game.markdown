@@ -16,10 +16,10 @@ Technologies used include {{page.technologies}}.
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <script src="{{site.baseurl}}/games/simple-karting/TemplateData/UnityProgress.js"></script>
-    <script src="{{site.baseurl}}/games/simple-karting/Build/UnityLoader.js"></script>
+    <script src="{{site.baseurl}}/games/simpleKarting/TemplateData/UnityProgress.js"></script>
+    <script src="{{site.baseurl}}/games/simpleKarting/Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "{{site.baseurl}}/games/simple-karting/Build/simpleKarting.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "{{site.baseurl}}/games/simpleKarting/Build/simpleKarting.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
