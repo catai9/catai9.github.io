@@ -1,53 +1,7 @@
 ---
-layout: default
+layout: home
+pagination: 
+  enabled: true
 ---
 
-<div class="home">
-  <!-- Html Elements for Search -->
-<div id="search-container">
-    <input type="text" id="search-input" placeholder="Search...">
-   
-    <div id="results-container" class="row pack">
-
-        {% for post in paginator.posts %}   
-            <div class="col-md-4 card">
-             <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">    
-                <div class="panel panel-default">
-                  
-                  {% if post.img %}
-                  <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
-                  {% else %}
-                  <img width="100%" src="{{site.baseurl}}/images/tab-logo.png" alt="{{site.title}}">
-                  {% endif %}
-                  
-                  <div class="panel-body">
-                    <br>
-                    <h3 class="panel-title pull-left">{{ post.title | truncate: 30 }}</h3>
-                  </div>
-                  
-                  <div class="panel-body">
-                    <h6 class="post-meta">{{post.technologies}}</h6> 
-                    <small>{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}</small>
-                  </div>
-                </div>
-                </a>
-            </div>
-        
-          {% endfor %}
-
-    </div> 
-  
-</div>
-
-<!-- Script pointing to search-script.js -->
-<script src="./js/search-script.js" type="text/javascript"></script>
-    
-<!-- Configuration -->
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
-})
-</script>
-</div>
+<!-- BLANK -->

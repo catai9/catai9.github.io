@@ -1,8 +1,0 @@
-I"G<p>An application that determines the optimal investment strategy given user preference constraints and historical data for stocks.</p>
-
-<p>This application was developed in under 2 months and used ANN to predict the next day’s closing price based on historical data.</p>
-
-<p>Please note that there is no link to the code as this was developed for an university course assignment and the professor requested that the code be kept private. However, I was awarded 100% in this assignment.</p>
-
-<p>Technologies used include Artificial Neural Networks, Excel Solver, Visual Basic.</p>
-:ET
