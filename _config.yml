@@ -13,14 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hello. I'm Jami Gibbs."
-email: 'jami0821@gmail.com'
-description: "I'm a software developer and designer from Chicago creating useful things for the web."
+title: "Hi! I'm Amy Tai."
+website_title: "Amy Tai | Personal Website"
+email: 'amy.tai@uwaterloo.ca'
+description: "I am a data scientist and researcher from Canada working on healthcare solutions.  I have prior domain experience in cancer research, dietary intake estimation, fraud detection, and recommender systems using AI, ML, computer vision, and LLMs."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: 'jamigibbs'
-github_username: 'jamigibbs'
-medium_username: 'blog.jamigibbs.com'
+url: "https://github.com/catai9/catai9.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+github_username: 'catai9'
+linkedin_link: 'https://ca.linkedin.com/in/amy-tai'
+google_scholar_link: 'https://scholar.google.ca/citations?user=suu78HIAAAAJ&hl=en'
+default-image: personal-picture.jpg
 
 # Build settings
 markdown: kramdown
@@ -92,9 +94,9 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2018 Jami Gibbs'
-admin_name: 'Jami Gibbs'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+footer_text: '© 2024 Amy Tai'
+admin_name: 'Amy Tai'
+# google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
 #### Phantom Navigation menu
